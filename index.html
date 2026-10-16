@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Swiss Gold Family Workshop</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="prog"></div>
+<div class="viewport"><div class="stage" id="stage">
+<canvas id="fx"></canvas>
+
+<!-- 1 cover -->
+<section class="slide" data-notes="Welcome everyone! Today we'll play a couple of games and find out why gold protects our money.">
+  <div class="cover">
+    <div>
+      <img class="in" src="images/logo.png" alt="Swiss Gold" style="height:130px;margin-bottom:22px">
+      <div class="kick in" style="--d:1">A family workshop by Swiss Gold</div>
+      <h1 class="h-l in" style="--d:2;margin-top:18px">Gold helps protect your money</h1>
+      <p class="h-s in" style="--d:3;color:var(--goldDeep);margin-top:28px">&#8230;and sometimes it saves the day</p>
+      <p class="sub in" style="--d:4">For parents and kids. We'll play, learn and win.</p>
+    </div>
+    <div class="fan in" style="--d:0"><div class="disc" style="background:var(--t-gold)"></div><img class="l" src="images/g50.png" alt="Swiss Gold 50 g bar"><img class="r" src="images/farouk.png" alt="Swiss Gold King Farouk coin"><img class="c" src="images/kilo.png" alt="Swiss Gold 1 kilo bar"></div>
+  </div>
+</section>
+
+<!-- 2 guess the price -->
+<section class="slide c-sky on-color center" style="padding-top:150px">
+  <div class="h-s in" style="--d:0">Let's play!</div>
+  <h1 class="h-xl in" style="--d:1;margin-top:10px">Guess the price</h1>
+  <p class="in" style="--d:2;font-size:32px;margin-top:22px">What did these cost 5 years ago, in mid-2021?</p>
+  <div class="badges">
+    <div class="badge in wiggle" style="--d:3;color:var(--coral)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M61.1 224C45 224 32 211 32 194.9c0-1.9 .2-3.7 .6-5.6C37.9 168.3 78.8 32 256 32s218.1 136.3 223.4 157.3c.5 1.9 .6 3.7 .6 5.6c0 16.1-13 29.1-29.1 29.1L61.1 224zM144 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm240 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM272 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM16 304c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48s-21.5 48-48 48L64 352c-26.5 0-48-21.5-48-48zm16 96c0-8.8 7.2-16 16-16l416 0c8.8 0 16 7.2 16 16l0 16c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64l0-16z"></path></svg></div>
+    <div class="badge in wiggle" style="--d:4;color:var(--grape)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64L80 64l0 320 224 0 0-320z"></path></svg></div>
+    <div class="badge in wiggle" style="--d:5;color:var(--sky)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32 64C32 28.7 60.7 0 96 0L256 0c35.3 0 64 28.7 64 64l0 192 8 0c48.6 0 88 39.4 88 88l0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-154c-27.6-7.1-48-32.2-48-62l0-64L384 64c-8.8-8.8-8.8-23.2 0-32s23.2-8.8 32 0l77.3 77.3c12 12 18.7 28.3 18.7 45.3l0 13.5 0 24 0 32 0 152c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-32c0-22.1-17.9-40-40-40l-8 0 0 144c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32s14.3-32 32-32L32 64zM96 80l0 96c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-96c0-8.8-7.2-16-16-16L112 64c-8.8 0-16 7.2-16 16z"></path></svg></div>
+    <div class="badge in wiggle" style="--d:6;color:var(--mint)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M160 0c17.7 0 32 14.3 32 32l0 35.7c1.6 .2 3.1 .4 4.7 .7c.4 .1 .7 .1 1.1 .2l48 8.8c17.4 3.2 28.9 19.9 25.7 37.2s-19.9 28.9-37.2 25.7l-47.5-8.7c-31.3-4.6-58.9-1.5-78.3 6.2s-27.2 18.3-29 28.1c-2 10.7-.5 16.7 1.2 20.4c1.8 3.9 5.5 8.3 12.8 13.2c16.3 10.7 41.3 17.7 73.7 26.3l2.9 .8c28.6 7.6 63.6 16.8 89.6 33.8c14.2 9.3 27.6 21.9 35.9 39.5c8.5 17.9 10.3 37.9 6.4 59.2c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11l0 33.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-34.9c-.4-.1-.9-.1-1.3-.2l-.2 0s0 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3c-16.1-7.2-23.4-26.1-16.2-42.2s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.5 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.6 .4-16.7-1.3-20.4c-1.9-4-5.6-8.4-13-13.3c-16.4-10.7-41.5-17.7-74-26.3l-2.8-.7s0 0 0 0C119.4 279.3 84.4 270 58.4 253c-14.2-9.3-27.5-22-35.8-39.6c-8.4-17.9-10.1-37.9-6.1-59.2C23.7 116 52.3 91.2 84.8 78.3c13.3-5.3 27.9-8.9 43.2-11L128 32c0-17.7 14.3-32 32-32z"></path></svg></div>
+    <div class="badge in wiggle" style="--d:7;color:var(--coral)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div>
+    <div class="badge in wiggle" style="--d:8;color:var(--gold)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2c0 0 0 0 0 0s0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336l0-35.4c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4l0 3.4 0 5.7 0 26.3zm32 0l0-32 0-25.9c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 44.2-86 80-192 80S0 476.2 0 432l0-35.4c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"></path></svg></div>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="item-head in" style="--d:1"><div class="badge prod" style="background:var(--t-coral)"><img src="images/happymeal.png" alt=""></div><div><h2 class="h-m">A Happy Meal</h2><p class="sub" style="margin-top:4px">Cheeseburger Happy Meal<br>What did it cost in mid-2021?</p></div></div>
+  <div class="counter" style="position:absolute;right:80px;top:200px;color:var(--coral)">1 of 6</div>
+  <div class="compare">
+    <div class="pcard step" style="background:var(--t-coral)"><div class="lbl" style="color:var(--coral)">2021</div><div class="big count" data-to="45">45</div><div class="cur">EGP</div></div>
+    <div class="pcard step" style="order:3;background:var(--coral);color:#fff"><div class="lbl">Today</div><div class="big count" data-to="155">155</div><div class="cur">EGP</div></div>
+    <div class="mid" style="order:2"><div class="step" data-with><svg class="arrow" viewBox="0 0 150 70"><path d="M0 22h95V0l55 35-55 35V48H0z" fill="var(--coral)"/></svg></div><div class="times step wiggle">&#215;3.4</div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+<section class="slide">
+  <div class="item-head in" style="--d:1"><div class="badge prod" style="background:var(--t-grape)"><img src="images/iphone.png" alt=""></div><div><h2 class="h-m">The newest iPhone Pro</h2><p class="sub" style="margin-top:4px">Launch price of the base model<br>What did it cost in mid-2021?</p></div></div>
+  <div class="counter" style="position:absolute;right:80px;top:200px;color:var(--grape)">2 of 6</div>
+  <div class="compare">
+    <div class="pcard step" style="background:var(--t-grape)"><div class="lbl" style="color:var(--grape)">2021 &#183; iPhone 13 Pro</div><div class="big count" data-to="24900">24,900</div><div class="cur">EGP</div></div>
+    <div class="pcard step" style="order:3;background:var(--grape);color:#fff"><div class="lbl">Today &#183; iPhone 18 Pro</div><div class="big count" data-to="99990">99,990</div><div class="cur">EGP</div></div>
+    <div class="mid" style="order:2"><div class="step" data-with><svg class="arrow" viewBox="0 0 150 70"><path d="M0 22h95V0l55 35-55 35V48H0z" fill="var(--grape)"/></svg></div><div class="times step wiggle">&#215;4.0</div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+<section class="slide">
+  <div class="item-head in" style="--d:1"><div class="badge" style="background:var(--sky);color:#fff"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32 64C32 28.7 60.7 0 96 0L256 0c35.3 0 64 28.7 64 64l0 192 8 0c48.6 0 88 39.4 88 88l0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-154c-27.6-7.1-48-32.2-48-62l0-64L384 64c-8.8-8.8-8.8-23.2 0-32s23.2-8.8 32 0l77.3 77.3c12 12 18.7 28.3 18.7 45.3l0 13.5 0 24 0 32 0 152c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-32c0-22.1-17.9-40-40-40l-8 0 0 144c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32s14.3-32 32-32L32 64zM96 80l0 96c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-96c0-8.8-7.2-16-16-16L112 64c-8.8 0-16 7.2-16 16z"></path></svg></div><div><h2 class="h-m">A litre of petrol</h2><p class="sub" style="margin-top:4px">Petrol 92<br>What did it cost in mid-2021?</p></div></div>
+  <div class="counter" style="position:absolute;right:80px;top:200px;color:var(--sky)">3 of 6</div>
+  <div class="compare">
+    <div class="pcard step" style="background:var(--t-sky)"><div class="lbl" style="color:var(--sky)">2021</div><div class="big ">8.25</div><div class="cur">EGP</div></div>
+    <div class="pcard step" style="order:3;background:var(--sky);color:#fff"><div class="lbl">Today</div><div class="big ">22.25</div><div class="cur">EGP</div></div>
+    <div class="mid" style="order:2"><div class="step" data-with><svg class="arrow" viewBox="0 0 150 70"><path d="M0 22h95V0l55 35-55 35V48H0z" fill="var(--sky)"/></svg></div><div class="times step wiggle">&#215;2.7</div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+<section class="slide">
+  <div class="item-head in" style="--d:1"><div class="badge" style="background:var(--mint);color:#fff"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M160 0c17.7 0 32 14.3 32 32l0 35.7c1.6 .2 3.1 .4 4.7 .7c.4 .1 .7 .1 1.1 .2l48 8.8c17.4 3.2 28.9 19.9 25.7 37.2s-19.9 28.9-37.2 25.7l-47.5-8.7c-31.3-4.6-58.9-1.5-78.3 6.2s-27.2 18.3-29 28.1c-2 10.7-.5 16.7 1.2 20.4c1.8 3.9 5.5 8.3 12.8 13.2c16.3 10.7 41.3 17.7 73.7 26.3l2.9 .8c28.6 7.6 63.6 16.8 89.6 33.8c14.2 9.3 27.6 21.9 35.9 39.5c8.5 17.9 10.3 37.9 6.4 59.2c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11l0 33.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-34.9c-.4-.1-.9-.1-1.3-.2l-.2 0s0 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3c-16.1-7.2-23.4-26.1-16.2-42.2s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.5 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.6 .4-16.7-1.3-20.4c-1.9-4-5.6-8.4-13-13.3c-16.4-10.7-41.5-17.7-74-26.3l-2.8-.7s0 0 0 0C119.4 279.3 84.4 270 58.4 253c-14.2-9.3-27.5-22-35.8-39.6c-8.4-17.9-10.1-37.9-6.1-59.2C23.7 116 52.3 91.2 84.8 78.3c13.3-5.3 27.9-8.9 43.2-11L128 32c0-17.7 14.3-32 32-32z"></path></svg></div><div><h2 class="h-m">One US dollar</h2><p class="sub" style="margin-top:4px">Bank selling rate<br>What did it cost in mid-2021?</p></div></div>
+  <div class="counter" style="position:absolute;right:80px;top:200px;color:var(--mint)">4 of 6</div>
+  <div class="compare">
+    <div class="pcard step" style="background:var(--t-mint)"><div class="lbl" style="color:var(--mint)">2021</div><div class="big ">15.74</div><div class="cur">EGP</div></div>
+    <div class="pcard step" style="order:3;background:var(--mint);color:#fff"><div class="lbl">Today</div><div class="big ">53.15</div><div class="cur">EGP</div></div>
+    <div class="mid" style="order:2"><div class="step" data-with><svg class="arrow" viewBox="0 0 150 70"><path d="M0 22h95V0l55 35-55 35V48H0z" fill="var(--mint)"/></svg></div><div class="times step wiggle">&#215;3.4</div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+<section class="slide">
+  <div class="item-head in" style="--d:1"><div class="badge" style="background:var(--coral);color:#fff"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div><div><h2 class="h-m">Everyday shopping</h2><p class="sub" style="margin-top:4px">Average prices in Egypt (inflation)<br>Shopping that cost 100 EGP in mid-2021 costs today&#8230;</p></div></div>
+  <div class="counter" style="position:absolute;right:80px;top:200px;color:var(--coral)">5 of 6</div>
+  <div class="compare">
+    <div class="pcard step" style="background:var(--t-coral)"><div class="lbl" style="color:var(--coral)">2021</div><div class="big count" data-to="100">100</div><div class="cur">EGP</div></div>
+    <div class="pcard step" style="order:3;background:var(--coral);color:#fff"><div class="lbl">Today</div><div class="big count" data-to="260">260</div><div class="cur">EGP</div></div>
+    <div class="mid" style="order:2"><div class="step" data-with><svg class="arrow" viewBox="0 0 150 70"><path d="M0 22h95V0l55 35-55 35V48H0z" fill="var(--coral)"/></svg></div><div class="times step wiggle">&#215;2.6</div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+<section class="slide">
+  <div class="item-head in" style="--d:1"><div class="badge prod" style="background:var(--t-gold)"><img src="images/g5.png" alt=""></div><div><h2 class="h-m">One gram of gold</h2><p class="sub" style="margin-top:4px">24 karat<br>What did it cost in mid-2021?</p></div></div>
+  <div class="counter" style="position:absolute;right:80px;top:200px;color:var(--gold)">6 of 6</div>
+  <div class="compare">
+    <div class="pcard step" style="background:var(--t-gold)"><div class="lbl" style="color:var(--goldDeep)">2021</div><div class="big count" data-to="896">896</div><div class="cur">EGP</div></div>
+    <div class="pcard step" style="order:3;background:var(--gold);color:#fff" data-burst><div class="lbl">Today</div><div class="big count" data-to="7143">7,143</div><div class="cur">EGP</div></div>
+    <div class="mid" style="order:2"><div class="step" data-with><svg class="arrow" viewBox="0 0 150 70"><path d="M0 22h95V0l55 35-55 35V48H0z" fill="var(--gold)"/></svg></div><div class="times step wiggle">&#215;8.0</div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 8 everything went up -->
+<section class="slide" data-bars>
+  <h2 class="h-m in">Everything got more expensive!</h2>
+  <p class="sub in" style="--d:1">How many times more you pay today than in mid-2021</p>
+  <div class="bars"><div class="bar-row in" data-bar style="--w:332px;--d:2"><span class="n">A Happy Meal</span><div class="track"><div class="fill" style="background:var(--coral)"></div><span class="v" style="color:var(--ink)">&#215;3.4</span></div></div>
+    <div class="bar-row in" data-bar style="--w:390px;--d:3"><span class="n">The newest iPhone Pro</span><div class="track"><div class="fill" style="background:var(--grape)"></div><span class="v" style="color:var(--ink)">&#215;4.0</span></div></div>
+    <div class="bar-row in" data-bar style="--w:263px;--d:4"><span class="n">A litre of petrol</span><div class="track"><div class="fill" style="background:var(--sky)"></div><span class="v" style="color:var(--ink)">&#215;2.7</span></div></div>
+    <div class="bar-row in" data-bar style="--w:332px;--d:5"><span class="n">One US dollar</span><div class="track"><div class="fill" style="background:var(--mint)"></div><span class="v" style="color:var(--ink)">&#215;3.4</span></div></div>
+    <div class="bar-row in" data-bar style="--w:254px;--d:6"><span class="n">Everyday shopping</span><div class="track"><div class="fill" style="background:var(--coral)"></div><span class="v" style="color:var(--ink)">&#215;2.6</span></div></div>
+    <div class="bar-row gold step" data-bar style="--w:780px;--d:7" data-burst><span class="n">One gram of gold</span><div class="track"><div class="fill" style="background:var(--gold)"></div><span class="v" style="color:var(--goldDeep)">&#215;8.0</span></div></div></div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 9 -->
+<section class="slide c-coral on-color center" style="display:grid;place-items:center">
+  <h1 class="h-xl in" style="font-size:170px">And your money?</h1>
+</section>
+
+<!-- 10 -->
+<section class="slide c-ink center" style="padding-top:110px">
+  <div class="badge in" style="margin:0 auto;background:var(--gold);color:var(--ink);width:150px;height:150px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l368 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></div>
+  <h1 class="h-xl in" style="--d:2;color:var(--gold);margin-top:46px">It stayed the same.</h1>
+  <p class="in" style="--d:4;color:#fff;font-size:32px;margin-top:30px">100 pounds in a drawer since 2021 is still 100 pounds&#8230; but it buys much less.</p>
+</section>
+
+<!-- 11 quiz -->
+<section class="slide c-sky on-color center" style="padding-top:120px">
+  <div class="h-s in">Quiz time</div>
+  <h1 class="h-l in" style="--d:1;margin:20px auto 0;max-width:1300px">What's the smallest gold bar Swiss Gold makes?</h1>
+  <div class="step wiggle" style="margin:64px auto 0;width:1050px;background:var(--gold);color:var(--ink);border-radius:60px;padding:30px 44px;display:flex;gap:30px;align-items:center;text-align:left" data-burst>
+    <div class="badge" style="background:#fff;color:var(--grape);width:110px;height:110px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 68.8L225.3 128l-1.3 0-72 0c-22.1 0-40-17.9-40-40s17.9-40 40-40l2.2 0c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40L32 128c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-41.6 0c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88l-2.2 0c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0L152 0C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40l-72 0-1.3 0 34.8-59.2C329.1 55.9 342.9 48 357.8 48l2.2 0c22.1 0 40 17.9 40 40zM32 288l0 176c0 26.5 21.5 48 48 48l144 0 0-224L32 288zM288 512l144 0c26.5 0 48-21.5 48-48l0-176-192 0 0 224z"></path></svg></div>
+    <div style="font-size:38px;font-weight:700;line-height:1.25">By the way&#8230; whoever gets it right wins a giveaway from Swiss Gold!</div>
+  </div>
+</section>
+
+<!-- 12 reveal -->
+<section class="slide" data-burst-on-enter>
+  <div style="display:grid;grid-template-columns:640px 1fr;gap:60px;align-items:center;height:100%">
+    <div style="position:relative;height:700px;display:grid;place-items:center">
+      <div class="in" style="position:absolute;width:640px;height:640px;border-radius:50%;background:var(--t-gold)"></div>
+      <img class="in" style="--d:1;position:relative;height:680px" src="images/card.png" alt="Swiss Gold quarter-gram bar in its card">
+    </div>
+    <div>
+      <div class="h-s in" style="--d:2;color:var(--coral);font-size:48px">That's right!</div>
+      <h1 class="h-l in" style="--d:3;margin-top:10px">A quarter-gram gold bar</h1>
+      <p class="h-s in" style="--d:4;color:var(--goldDeep);margin-top:26px">24 karat &#183; 999.9 fine (99.99% pure)</p>
+      <p class="sub in" style="--d:5">As small as your fingernail, and it's real gold.</p>
+    </div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 13 -->
+<section class="slide center" style="padding-top:110px">
+  <h1 class="h-m in">What did it cost?</h1>
+  <p class="sub in" style="--d:1">In mid-2021</p>
+  <div class="step" style="margin-top:60px">
+    <div style="font-size:40px;font-weight:700;color:var(--coral)">only</div>
+    <div style="color:var(--sky);font-weight:800"><span class="count" data-to="300" style="font-size:220px;line-height:1">300</span> <span style="font-size:60px">EGP</span></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 14 -->
+<section class="slide center" style="padding-top:110px">
+  <h1 class="h-m in">And today?</h1>
+  <div class="step" style="margin-top:70px">
+    <div style="font-size:40px;font-weight:700;color:var(--coral)">almost</div>
+    <div style="color:var(--goldDeep);font-weight:800"><span class="count" data-to="2000" style="font-size:220px;line-height:1">2,000</span> <span style="font-size:60px">EGP</span></div>
+  </div>
+  <p class="step h-s" style="color:var(--mint);margin-top:30px;font-size:40px">Same tiny bar, more than 6 times the price</p>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 15 -->
+<section class="slide c-gold center" style="padding-top:170px">
+  <h1 class="h-xl in" style="color:#fff;font-size:180px">Why?</h1>
+  <h1 class="h-xl step" style="margin-top:40px" data-burst>Because it's gold!</h1>
+</section>
+
+<!-- 16 what is gold -->
+<section class="slide">
+  <h2 class="h-m in">What is gold?</h2>
+  <p class="sub in" style="--d:1">A rare natural metal people have trusted for thousands of years</p>
+  <div class="grid2">
+    <div class="tcard step" style="background:var(--t-coral)"><div class="badge" style="background:var(--coral)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M116.7 33.8c4.5-6.1 11.7-9.8 19.3-9.8l240 0c7.6 0 14.8 3.6 19.3 9.8l112 152c6.8 9.2 6.1 21.9-1.5 30.4l-232 256c-4.5 5-11 7.9-17.8 7.9s-13.2-2.9-17.8-7.9l-232-256c-7.7-8.5-8.3-21.2-1.5-30.4l112-152zm38.5 39.8c-3.3 2.5-4.2 7-2.1 10.5l57.4 95.6L63.3 192c-4.1 .3-7.3 3.8-7.3 8s3.2 7.6 7.3 8l192 16c.4 0 .9 0 1.3 0l192-16c4.1-.3 7.3-3.8 7.3-8s-3.2-7.6-7.3-8L301.5 179.8l57.4-95.6c2.1-3.5 1.2-8.1-2.1-10.5s-7.9-2-10.7 1L256 172.2 165.9 74.6c-2.8-3-7.4-3.4-10.7-1z"></path></svg></div><div><h3>Rare</h3><p>There's only so much gold in the world, and nobody can print more of it like money.</p></div></div>
+    <div class="tcard step" style="background:var(--t-sky)"><div class="badge" style="background:var(--sky)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8l0 378.1C394 378 431.1 230.1 432 141.4L256 66.8s0 0 0 0z"></path></svg></div><div><h3>Never rusts</h3><p>Gold doesn't rust or tarnish. It can stay bright for thousands of years.</p></div></div>
+    <div class="tcard step" style="background:var(--t-mint)"><div class="badge" style="background:var(--mint)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M177.8 63.2l10 17.4c2.8 4.8 4.2 10.3 4.2 15.9l0 41.4c0 3.9 1.6 7.7 4.3 10.4c6.2 6.2 16.5 5.7 22-1.2l13.6-17c4.7-5.9 12.9-7.7 19.6-4.3l15.2 7.6c3.4 1.7 7.2 2.6 11 2.6c6.5 0 12.8-2.6 17.4-7.2l3.9-3.9c2.9-2.9 7.3-3.6 11-1.8l29.2 14.6c7.8 3.9 12.6 11.8 12.6 20.5c0 10.5-7.1 19.6-17.3 22.2l-35.4 8.8c-7.4 1.8-15.1 1.5-22.4-.9l-32-10.7c-3.3-1.1-6.7-1.7-10.2-1.7c-7 0-13.8 2.3-19.4 6.5L176 212c-10.1 7.6-16 19.4-16 32l0 28c0 26.5 21.5 48 48 48l32 0c8.8 0 16 7.2 16 16l0 48c0 17.7 14.3 32 32 32c10.1 0 19.6-4.7 25.6-12.8l25.6-34.1c8.3-11.1 12.8-24.6 12.8-38.4l0-12.1c0-3.9 2.6-7.3 6.4-8.2l5.3-1.3c11.9-3 20.3-13.7 20.3-26c0-7.1-2.8-13.9-7.8-18.9l-33.5-33.5c-3.7-3.7-3.7-9.7 0-13.4c5.7-5.7 14.1-7.7 21.8-5.1l14.1 4.7c12.3 4.1 25.7-1.5 31.5-13c3.5-7 11.2-10.8 18.9-9.2l27.4 5.5C432 112.4 351.5 48 256 48c-27.7 0-54 5.4-78.2 15.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"></path></svg></div><div><h3>Valued everywhere</h3><p>In Egypt or anywhere in the world, gold has a price.</p></div></div>
+    <div class="tcard step" style="background:var(--t-grape)"><div class="badge" style="background:var(--grape)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64l0 11c0 42.4 16.9 83.1 46.9 113.1L146.7 256 78.9 323.9C48.9 353.9 32 394.6 32 437l0 11c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 256 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-11c0-42.4-16.9-83.1-46.9-113.1L237.3 256l67.9-67.9c30-30 46.9-70.7 46.9-113.1l0-11c17.7 0 32-14.3 32-32s-14.3-32-32-32L320 0 64 0 32 0zM96 75l0-11 192 0 0 11c0 19-5.6 37.4-16 53L112 128c-10.3-15.6-16-34-16-53zm16 309c3.5-5.3 7.6-10.3 12.1-14.9L192 301.3l67.9 67.9c4.6 4.6 8.6 9.6 12.1 14.9L112 384z"></path></svg></div><div><h3>Since the pharaohs</h3><p>Ancient Egyptians used it thousands of years ago, and it's still precious today.</p></div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 17 why buy -->
+<section class="slide">
+  <h2 class="h-m in">Why do we buy gold?</h2>
+  <div class="list">
+    <div class="li step"><div class="n" style="background:var(--gold)">1</div><div><h3>It protects your money</h3><p>Over the long run, gold has tended to rise with prices, helping your savings hold their value.</p></div></div>
+    <div class="li step"><div class="n" style="background:var(--sky)">2</div><div><h3>Easy to sell when you need it</h3><p>Gold is easy to sell back for cash when you need it.</p></div></div>
+    <div class="li step"><div class="n" style="background:var(--coral)">3</div><div><h3>Savings for a rainy day</h3><p>Sometimes it's what saves us in an illness or a hard time.</p></div></div>
+    <div class="li step"><div class="n" style="background:var(--mint)">4</div><div><h3>Something to pass on</h3><p>It stays in the family, for our children after us.</p></div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 18 investment gold -->
+<section class="slide">
+  <h2 class="h-m in">What is investment gold?</h2>
+  <p class="sub in" style="--d:1">Gold we buy to save and grow our money, not to wear</p>
+  <div class="grid2">
+    <div class="tcard in" style="--d:2;background:var(--t-gold);align-items:center;height:360px">
+      <img src="images/ounce.png" alt="Swiss Gold 1 ounce bar" style="height:300px">
+      <div><h3 style="font-size:44px">Gold bars</h3><p style="font-size:28px;color:var(--goldDeep);font-weight:700">24 karat</p></div>
+    </div>
+    <div class="tcard in" style="--d:3;background:var(--t-sky);align-items:center;height:360px">
+      <img src="images/farouk.png" alt="Swiss Gold King Farouk coin" style="height:300px">
+      <div><h3 style="font-size:44px">Gold coins</h3><p style="font-size:28px;color:var(--sky);font-weight:700">21 karat</p></div>
+    </div>
+  </div>
+  <p class="step h-s" style="margin-top:44px">Why is it an investment? Low making charges, and you can sell it back close to the market price of the day.</p>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 19 bar or coin -->
+<section class="slide">
+  <h2 class="h-m in">A bar or a coin?</h2>
+  <div class="grid2" style="margin-top:110px">
+    <div class="step">
+      <div style="background:var(--gold);color:#fff;border-radius:34px;padding:26px 38px;position:relative"><img src="images/g100.png" alt="" style="position:absolute;right:30px;top:-46px;height:200px;rotate:8deg"><div style="font-size:44px;font-weight:800">Gold bar</div><div style="font-size:24px;font-weight:700">24 karat</div></div>
+      <div style="padding:24px 38px;display:grid;gap:18px;font-size:27px;font-weight:700">
+        <div><div style="font-size:18px;color:var(--mute)">Purity</div>99.99% pure gold (999.9 fine)</div>
+        <div><div style="font-size:18px;color:var(--mute)">Sizes</div>From a quarter gram to a kilo</div>
+        <div><div style="font-size:18px;color:var(--mute)">Best for</div>Saving with the lowest making charges</div>
+      </div>
+    </div>
+    <div class="step">
+      <div style="background:var(--sky);color:#fff;border-radius:34px;padding:26px 38px;position:relative"><img src="images/elizabeth.png" alt="" style="position:absolute;right:30px;top:-46px;height:200px;rotate:-8deg"><div style="font-size:44px;font-weight:800">Gold coin</div><div style="font-size:24px;font-weight:700">21 karat</div></div>
+      <div style="padding:24px 38px;display:grid;gap:18px;font-size:27px;font-weight:700">
+        <div><div style="font-size:18px;color:var(--mute)">Purity</div>87.5% gold</div>
+        <div><div style="font-size:18px;color:var(--mute)">Sizes</div>Gold pound (8 g), half and quarter pound</div>
+        <div><div style="font-size:18px;color:var(--mute)">Best for</div>Gifts, and savings that look beautiful</div>
+      </div>
+    </div>
+  </div>
+  <p class="step" style="font-size:24px;font-weight:700;color:var(--goldDeep);margin-left:180px">The difference: a bar is purer with lower making charges; a coin is mixed with other metals, like copper, to make it harder.</p>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 20 savings game -->
+<section class="slide" style="padding:0">
+  <div style="display:grid;grid-template-columns:730px 1fr;height:100%">
+    <div style="background:var(--t-gold);display:flex;align-items:flex-end;justify-content:center;gap:14px;padding:0 30px 110px;overflow:hidden">
+      <img class="in" style="--d:0;height:230px" src="images/g10.png" alt="10 g bar"><img class="in" style="--d:1;height:310px" src="images/g50.png" alt="50 g bar"><img class="in" style="--d:2;height:400px" src="images/kilo.png" alt="1 kilo bar">
+    </div>
+    <div style="padding:190px 80px 0 70px">
+      <div class="kick in" style="--d:4">Let's play again!</div>
+      <h1 class="h-l in" style="--d:5;font-size:76px;margin-top:16px">How much could you save a day?</h1>
+      <div class="step" style="margin-top:44px;background:var(--t-mint);border-radius:40px;padding:36px 40px">
+        <p style="font-size:30px;font-weight:700;line-height:1.35">Imagine you'd turned that money into gold every day, for 1 year&#8230; or 10.</p>
+        <p class="step" style="font-size:34px;font-weight:800;color:var(--mint);margin-top:18px">How much would you have today?</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 21 results -->
+<section class="slide" data-notes="Every day we buy 20 EGP of 24k gold at that month's Egyptian market price. Value today = grams &#215; 7,045.71 (Swiss Gold buy price, 16 Oct 2026).">
+  <h2 class="h-m in" style="font-size:52px">Saving 20 EGP a day in gold</h2>
+  <p class="sub in" style="--d:1">What it would be worth today, depending on when you started</p>
+  <div class="rows" style="width:1060px">
+    <div class="hdr"><span>Started</span><span>You paid</span><span>Gold</span><span>Worth today</span></div>
+    <div class="row step" style="background:var(--t-coral)"><span><b>1 year ago</b><small>(Oct 2025)</small></span><span>7,300 EGP</span><span>1.03 g</span><span class="w"><span class="count" data-to="7235">7,235</span> EGP</span></div>
+    <div class="row step" style="background:var(--t-sky)"><span><b>5 years ago</b><small>(Oct 2021)</small></span><span>36,520 EGP</span><span>14.76 g</span><span class="w"><span class="count" data-to="103965">103,965</span> EGP</span></div>
+    <div class="row step" style="background:var(--gold)" data-burst><span><b>10 years ago</b><small style="color:var(--ink)">(Oct 2016)</small></span><span>73,040 EGP</span><span>61.92 g</span><span class="w"><span class="count" data-to="436250">436,250</span> EGP</span></div>
+  </div>
+  <p class="step h-s" style="color:var(--goldDeep);margin-top:26px">Over the long run, gold has rewarded patient savers.</p>
+  <div class="qr in" style="--d:2"><img src="images/qr.png" alt="QR code to the calculator"><p>Scan to try your own amount and number of years</p><a href="https://swissgoldnewencal.vercel.app" target="_blank" rel="noopener">swissgoldnewencal.vercel.app</a></div>
+  <p class="fine">Monthly 24 karat prices in Egypt, without making charges; valued at Swiss Gold's buy-back price of 7,046 EGP/g (16 Oct 2026). Real purchases include making charges, so results would be a little lower. Gold prices go up and down.</p>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 22 story -->
+<section class="slide">
+  <h2 class="h-m in">The story of gold</h2>
+  <div class="tl pics">
+    <div class="stop step"><img class="pic" src="images/hist_egypt.jpg" alt="Tutankhamun's golden mask in an ancient tomb"><div class="pt" style="background:var(--coral)"></div><h3>Ancient Egypt</h3><p>The pharaohs made treasures from it, like Tutankhamun's mask</p></div>
+    <div class="stop step"><img class="pic" src="images/hist_coins.jpg" alt="A merchant paying with a gold coin"><div class="pt" style="background:var(--sky)"></div><h3>The first gold coins</h3><p>About 2,600 years ago people started trading with gold coins</p></div>
+    <div class="stop step"><img class="pic" src="images/hist_pound.jpg" alt="A grandmother showing gold pounds to her grandchildren"><div class="pt" style="background:var(--mint)"></div><h3>The gold pound</h3><p>Became the family savings in Egyptian homes for generations</p></div>
+    <div class="stop step"><img class="pic" src="images/hist_today.jpg" alt="Gold bars in a bank vault"><div class="pt" style="background:var(--grape)"></div><h3>Today</h3><p>The world's big central banks still keep gold for safety</p></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 23 switzerland -->
+<section class="slide" style="padding:0">
+  <img class="in" src="images/swiss.jpg" alt="Swiss mountains" style="width:100%;height:360px;object-fit:cover;display:block">
+  <div style="padding:34px 80px 0">
+    <h2 class="h-m in" style="--d:1;font-size:50px">Why is Switzerland famous for gold?</h2>
+    <div class="grid3" style="margin-top:30px">
+      <div class="tcard step" style="background:var(--t-coral);padding:26px"><div class="badge" style="background:var(--coral);width:80px;height:80px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M64 32C46.3 32 32 46.3 32 64l0 240 0 48 0 80c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-128 0-151.8c0-18.2-19.4-29.7-35.4-21.1L352 215.4l0-63.2c0-18.2-19.4-29.7-35.4-21.1L160 215.4 160 64c0-17.7-14.3-32-32-32L64 32z"></path></svg></div><div><h3 style="font-size:26px">World-class refineries</h3><p style="font-size:18px">The world's biggest gold refining centre</p></div></div>
+      <div class="tcard step" style="background:var(--t-sky);padding:26px"><div class="badge" style="background:var(--sky);width:80px;height:80px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path></svg></div><div><h3 style="font-size:26px">Swiss precision</h3><p style="font-size:18px">The precision of a Swiss watch, in the weight and purity of every bar</p></div></div>
+      <div class="tcard step" style="background:var(--t-mint);padding:26px"><div class="badge" style="background:var(--mint);width:80px;height:80px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8L32 192c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9l0-.9 4.4-1.6L240.1 4.2zM64 224l64 0 0 192 40 0 0-192 64 0 0 192 48 0 0-192 64 0 0 192 40 0 0-192 64 0 0 196.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512L32 512c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1L64 224z"></path></svg></div><div><h3 style="font-size:26px">Trust and stability</h3><p style="font-size:18px">A calm country with strong banks, so the world trusts its gold</p></div></div>
+    </div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 25 founder story -->
+<section class="slide">
+  <h2 class="h-m in">How it all started</h2>
+  <p class="sub in" style="--d:1">Mohsen El Saeed searched the world for the best gold and the best machines</p>
+  <div class="flow story">
+    <div class="stop step"><div class="ill" style="background:var(--t-sky)"><img src="images/mohsen_plane.jpg" alt="Mohsen El Saeed on a plane to Zurich"></div><h3>Off to Switzerland</h3><p>Searching for the best gold in the world</p></div>
+    <div class="stop step"><div class="ill" style="background:var(--t-grape)"><img src="images/mohsen_machines.jpg" alt="Mohsen El Saeed beside gold machines in Switzerland"></div><h3>The best machines</h3><p>Gaining the experience and an official Swiss Gold franchise</p></div>
+    <div class="stop step"><div class="ill" style="background:var(--t-coral)"><img src="images/mohsen_egypt.jpg" alt="Mohsen El Saeed at the pyramids holding a gold bar"></div><h3>Back to Egypt</h3><p>Bringing Swiss quality home</p></div>
+    <div class="stop step"><div class="ill" style="background:var(--t-gold)"><img src="images/mohsen_card.jpg" alt="Mohsen El Saeed holding a Swiss Gold bar"></div><h3>Swiss Gold Egypt</h3><p>Selling the best gold to Egyptians</p></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 24 swiss gold egypt -->
+<section class="slide">
+  <h2 class="h-m in">Swiss Gold Egypt</h2>
+  <p class="sub in" style="--d:1;color:var(--goldDeep);font-weight:700">The official representative of the Swiss Gold refinery in Switzerland</p>
+  <div class="grid2">
+    <div class="tcard step" style="background:var(--t-gold)"><div class="badge" style="background:var(--gold)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.4-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"></path></svg></div><div><h3>Certified quality</h3><p>ISO certificates for quality and environment</p></div></div>
+    <div class="tcard step" style="background:var(--t-coral)"><div class="badge" style="background:var(--coral)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M312 201.8c0-17.4 9.2-33.2 19.9-47C344.5 138.5 352 118.1 352 96c0-53-43-96-96-96s-96 43-96 96c0 22.1 7.5 42.5 20.1 58.8c10.7 13.8 19.9 29.6 19.9 47c0 29.9-24.3 54.2-54.2 54.2L112 256C50.1 256 0 306.1 0 368c0 20.9 13.4 38.7 32 45.3L32 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-50.7c18.6-6.6 32-24.4 32-45.3c0-61.9-50.1-112-112-112l-33.8 0c-29.9 0-54.2-24.3-54.2-54.2zM416 416l0 32L96 448l0-32 320 0z"></path></svg></div><div><h3>Officially hallmarked</h3><p>Every product carries the official Egyptian hallmark (Damgha)</p></div></div>
+    <div class="tcard step" style="background:var(--t-sky)"><div class="badge" style="background:var(--sky)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2c0 0 0 0 0 0s0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336l0-35.4c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4l0 3.4 0 5.7 0 26.3zm32 0l0-32 0-25.9c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 44.2-86 80-192 80S0 476.2 0 432l0-35.4c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"></path></svg></div><div><h3>For every budget</h3><p>24 karat bars from a quarter gram to a kilo, and 21 karat coins</p></div></div>
+    <div class="tcard step" style="background:var(--t-mint)"><div class="badge" style="background:var(--mint)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0L109.6 0C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9c0 0 0 0-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3L448 384l-320 0 0-133.4c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3L64 384l0 64c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-64 0-131.4c-4 1-8 1.8-12.3 2.3z"></path></svg></div><div><h3>Close to you</h3><p>Branches in Cairo, Giza, Alexandria and Tanta</p></div></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 26 is it real -->
+<section class="slide">
+  <h2 class="h-m in" style="font-size:52px">How do you know your gold is real?</h2>
+  <div class="grid3">
+    <div class="tcard vcard step" style="background:var(--t-coral)"><div class="badge" style="background:var(--coral)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M312 201.8c0-17.4 9.2-33.2 19.9-47C344.5 138.5 352 118.1 352 96c0-53-43-96-96-96s-96 43-96 96c0 22.1 7.5 42.5 20.1 58.8c10.7 13.8 19.9 29.6 19.9 47c0 29.9-24.3 54.2-54.2 54.2L112 256C50.1 256 0 306.1 0 368c0 20.9 13.4 38.7 32 45.3L32 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-50.7c18.6-6.6 32-24.4 32-45.3c0-61.9-50.1-112-112-112l-33.8 0c-29.9 0-54.2-24.3-54.2-54.2zM416 416l0 32L96 448l0-32 320 0z"></path></svg></div><h3 style="margin-top:20px">The hallmark</h3><p>The official Egyptian government stamp (Damgha) on the gold</p></div>
+    <div class="tcard vcard step" style="background:var(--t-sky)"><div class="badge" style="background:var(--sky)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L48 0zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm112-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM272 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16z"></path></svg></div><h3 style="margin-top:20px">A well-known company</h3><p>Buy from a big name with real branches and a good reputation</p></div>
+    <div class="tcard vcard step" style="background:var(--t-mint)"><div class="badge" style="background:var(--mint)"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M14 2.2C22.5-1.7 32.5-.3 39.6 5.8L80 40.4 120.4 5.8c9-7.7 22.3-7.7 31.2 0L192 40.4 232.4 5.8c9-7.7 22.3-7.7 31.2 0L304 40.4 344.4 5.8c7.1-6.1 17.1-7.5 25.6-3.6s14 12.4 14 21.8l0 464c0 9.4-5.5 17.9-14 21.8s-18.5 2.5-25.6-3.6L304 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L192 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L80 471.6 39.6 506.2c-7.1 6.1-17.1 7.5-25.6 3.6S0 497.4 0 488L0 24C0 14.6 5.5 6.1 14 2.2zM96 144c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 144zM80 352c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 336c-8.8 0-16 7.2-16 16zM96 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 240z"></path></svg></div><h3 style="margin-top:20px">Your invoice</h3><p>Get an invoice with the weight, karat and price, and keep it</p></div>
+  </div>
+  <img class="logo" src="images/logo.png" alt="">
+</section>
+
+<!-- 26b golden tip -->
+<section class="slide c-gold center" style="padding-top:150px" data-notes="The one thing to take home. Click shows the explanation.">
+  <div class="in" style="color:#fff;font-size:40px;font-weight:700">One golden tip</div>
+  <h1 class="h-l in" style="--d:1;margin:30px auto 0;max-width:1250px">Start small, start early, and be patient.</h1>
+  <p class="step" style="font-size:32px;line-height:1.45;max-width:1100px;margin:44px auto 0">Even a quarter gram counts. Buy a little at a time, keep it safe with its invoice, and think in years, not days: gold prices go up and down along the way.</p>
+</section>
+
+<!-- 27 thanks -->
+<section class="slide" data-burst-on-enter>
+  <div class="cover">
+    <div>
+      <img class="in" src="images/logo.png" alt="Swiss Gold" style="height:150px">
+      <h1 class="h-xl in" style="--d:1;margin-top:30px;font-size:108px;white-space:nowrap">Thank you!</h1>
+      <p class="h-s in" style="--d:2;color:var(--goldDeep);margin-top:24px">Start saving today, even with a quarter gram.</p>
+      <p class="sub in" style="--d:3">swissgold.com.eg &#183; Hotline 19215</p>
+    </div>
+    <div class="fan in"><div class="disc" style="background:var(--t-coral)"></div><img class="l" src="images/george.png" alt="Swiss Gold King George coin"><img class="r" src="images/g250.png" alt="Swiss Gold 250 g bar"><img class="c" src="images/card.png" alt="Swiss Gold quarter-gram bar"></div>
+  </div>
+</section>
+
+</div></div>
+
+<div class="hint" id="hint">Click, Space or &#8594; for next &#183; &#8592; back &#183; F full screen</div>
+<div class="ctrl">
+  <button type="button" id="prev" aria-label="Previous">&#9664;</button>
+  <button type="button" id="next" aria-label="Next">Next &#9654;</button>
+  <button type="button" id="fs">Full screen</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
